@@ -34,7 +34,6 @@ namespace RandomWordApi_Vom_Hias.Controllers
             return await _dataManager.GetWords(table, finalNumber, finalMin, finalMax);
         }
 
-
         private readonly IDataManager _dataManager;
     }
 }
